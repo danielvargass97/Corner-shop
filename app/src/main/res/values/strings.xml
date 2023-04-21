@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Corner shop</string>
+    <string name="textEmail">Email: </string>
+    <string name="textToken">Token: </string>
+    <string name="textName">Name:</string>
+    <string name="textLastName">Last name: </string>
+    <string name="textPassword">Password: </string>
+    <string name="buttonName">Generate data</string>
+    <string name="textImage">"Image Shop "</string>
+    <string name="appName">CORNER SHOP</string>
+    <string name="loginEmail">Email</string>
+    <string name="loginPassword">Password</string>
+    <string name="singInButton">SIGN IN</string>
+    <string name="signUpButton">SIGN UP</string>
 </resources>
