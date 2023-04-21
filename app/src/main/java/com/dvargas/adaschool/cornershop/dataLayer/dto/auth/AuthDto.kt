@@ -1,4 +1,4 @@
-package com.dvargas.adaschool.cornershop.dataLayer.network.dto.auth
+package com.dvargas.adaschool.cornershop.dataLayer.dto.auth
 
 data class AuthDto(
     val email: String,

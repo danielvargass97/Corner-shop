@@ -1,4 +1,4 @@
-package com.dvargas.adaschool.cornershop.dataLayer.network.dto.users
+package com.dvargas.adaschool.cornershop.dataLayer.dto.users
 
 data class UserDto(
     val id: String,

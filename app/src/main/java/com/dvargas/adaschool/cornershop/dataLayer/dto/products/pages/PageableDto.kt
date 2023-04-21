@@ -1,4 +1,4 @@
-package com.dvargas.adaschool.cornershop.dataLayer.network.dto.products.pages
+package com.dvargas.adaschool.cornershop.dataLayer.dto.products.pages
 
 data class PageableDto(
     val sort: SortDto,

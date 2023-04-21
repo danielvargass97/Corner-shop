@@ -1,7 +1,7 @@
-package com.dvargas.adaschool.cornershop.dataLayer.network.dto.products
+package com.dvargas.adaschool.cornershop.dataLayer.dto.products
 
-import com.dvargas.adaschool.cornershop.dataLayer.network.dto.products.pages.PageableDto
-import com.dvargas.adaschool.cornershop.dataLayer.network.dto.products.pages.SortDto
+import com.dvargas.adaschool.cornershop.dataLayer.dto.products.pages.PageableDto
+import com.dvargas.adaschool.cornershop.dataLayer.dto.products.pages.SortDto
 
 data class AllProductsDto(
     val content: List<ProductDto>,
