@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F08A5D"
+    android:background="@color/teal_200"
     tools:context=".LoginActivity">
 
     <ImageView
@@ -15,7 +15,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/corner_shop" />
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="@string/imageLogo" />
 
     <EditText
         android:id="@+id/loginEmailAddress"
@@ -42,20 +43,23 @@
         android:inputType="textPassword"
         app:layout_constraintTop_toBottomOf="@+id/loginEmailAddress" />
 
-  <Button
-      android:id="@+id/signInButton"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:layout_marginTop="48dp"
-      android:text="@string/singInButton"
-      app:layout_constraintTop_toBottomOf="@+id/loginPassword"
-      tools:layout_editor_absoluteX="0dp" />
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/singInButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginPassword" />
 
-  <Button
+    <Button
         android:id="@+id/signUpButton"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/signUpButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/signInButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
